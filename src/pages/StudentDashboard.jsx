@@ -234,8 +234,9 @@ export default function StudentDashboard({ session, onLogout }) {
                   </div>
                   <div
                     style={{
+                        fontWeight: 800,
                       fontSize: 28,
-                      fontWeight: 800,
+                      
                       color: r.passed ? "var(--success)" : "var(--accent2)",
                     }}
                   >
